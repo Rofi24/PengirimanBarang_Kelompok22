@@ -28,8 +28,7 @@ namespace menu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 myForm2 = new Form1();
-            myForm2.Show();
+           this.Close();
         }
     }
 }

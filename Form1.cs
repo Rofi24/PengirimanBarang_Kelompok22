@@ -19,15 +19,19 @@ namespace menu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            binding myForm2 = new binding();
-            myForm2.Show();
+            this.Hide();
+            Grid myForm2 = new Grid();
+            myForm2.ShowDialog();
+            this.Show();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Grid myForm2 = new Grid();
-            myForm2.Show();
+            this.Hide();
+            binding myForm3 = new binding();
+            myForm3.ShowDialog();
+            this.Show();
         }
     }
 }
